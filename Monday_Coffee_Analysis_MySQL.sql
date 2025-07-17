@@ -1,5 +1,5 @@
 
--- Monday Coffee -- Data Analysis (MySQL-Compatible)
+-- Monday Coffee -- Data Analysis (MY SQL)
 
 SELECT * FROM city;
 SELECT * FROM products;
@@ -14,7 +14,7 @@ SELECT
 FROM city
 ORDER BY coffee_consumers_in_millions DESC;
 
--- Q2: Total Revenue from Coffee Sales in Q4 2023
+-- Q2: Total Revenue from Coffee Sales in Q-4 of 2023
 SELECT 
     SUM(total) AS total_revenue
 FROM sales
